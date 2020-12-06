@@ -67,6 +67,7 @@ public class MyLinkedList {
         tempNode = tempNode.getNext();
         return tempNode;
     }
+
     public INode search(INode searchKey) {
 
         INode tempNode = this.head;
@@ -77,5 +78,18 @@ public class MyLinkedList {
             tempNode = tempNode.getNext();
         }
         return null;
+    }
+
+    public INode insertBetweenNodes(INode head, INode newNode, int position) {
+        INode previous = head;
+        int count = 1;
+        while (count < position - 1) {
+            previous = previous.getNext();
+            count++;
+        }
+        INode current = previous.getNext();
+        newNode.setNext(current);
+        previous.setNext(newNode);
+        return head;
     }
 }
