@@ -7,7 +7,7 @@ import java.util.LinkedList;
 
 public class MyNodeTest {
     @Test
-    public void givenNumbersWhenLinkedShouldPassedLinkedListTest() {
+    public void given3NumbersWhenLinkedShouldPassedLinkedListTest() {
         MyNode<Integer> myFirstNode = new MyNode<>(56);
         MyNode<Integer> mySecondNode = new MyNode<>(30);
         MyNode<Integer> myThirdNode = new MyNode<>(70);
