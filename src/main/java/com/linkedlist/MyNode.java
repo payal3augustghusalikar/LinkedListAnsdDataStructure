@@ -7,8 +7,8 @@ public class MyNode<K> implements INode<K> {
     private K key;
     private INode next;
 
-    public MyNode(int i) {
-        this.key = null;
+    public MyNode(K key) {
+        this.key = key;
         this.next = null;
     }
 
@@ -17,15 +17,16 @@ public class MyNode<K> implements INode<K> {
         return key;
     }
 
+    @Override
     public void setKey(K key) {
         this.key = key;
     }
 
-    public INode getNext() {
+    public INode<K> getNext() {
         return next;
     }
 
     public void setNext(INode next) {
-        this.next = (MyNode<K>)next;
+        this.next = (MyNode<K>) next;
     }
 }
