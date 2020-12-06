@@ -50,6 +50,7 @@ public class MyLinkedList {
         }
         myNodes.append(tempNode.getKey());
         System.out.println(myNodes);
+        System.out.println("Size of node of the sequence element is :" +lengthOfNode(head));
     }
 
     public INode popFirst() {
@@ -91,5 +92,29 @@ public class MyLinkedList {
         newNode.setNext(current);
         previous.setNext(newNode);
         return head;
+    }
+
+    public INode deleteFromSequence(INode head, int position) {
+        INode previous = head;
+        int count = 1;
+        while (count < position - 1) {
+            previous = previous.getNext();
+            count++;
+        }
+        INode current = previous.getNext();
+        previous.setNext(current.getNext());
+        current = null;
+        lengthOfNode(head);
+        return current;
+    }
+
+    public int lengthOfNode(INode head){
+        INode tempNode = head;
+        int setNum = 0;
+        while (tempNode!=null){
+            tempNode=tempNode.getNext();
+            setNum++;
+        }
+        return  setNum;
     }
 }

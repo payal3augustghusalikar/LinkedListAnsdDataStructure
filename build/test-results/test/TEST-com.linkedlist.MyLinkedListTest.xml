@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.linkedlist.MyLinkedListTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-12-06T18:47:17" hostname="DESKTOP-S0RN8B8" time="0.024">
+<testsuite name="com.linkedlist.MyLinkedListTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-12-06T20:01:28" hostname="DESKTOP-S0RN8B8" time="0.039">
   <properties/>
-  <testcase name="givenElementToSearchWhenMatchShouldPassLinkedListResult" classname="com.linkedlist.MyLinkedListTest" time="0.003"/>
-  <testcase name="givenLastElementWhenDeleteShouldPassLinkedListResult" classname="com.linkedlist.MyLinkedListTest" time="0.004"/>
-  <testcase name="givenFirstElementWhenDeleteShouldPassLinkedListResult" classname="com.linkedlist.MyLinkedListTest" time="0.0"/>
-  <testcase name="given3NumbersWhenAddedToLinkedListShouldBeAddedToTop" classname="com.linkedlist.MyLinkedListTest" time="0.001"/>
-  <testcase name="given3NumbersWhenInsertingSecondInBetweenShouldPassLinkedList" classname="com.linkedlist.MyLinkedListTest" time="0.003"/>
+  <testcase name="givenElementToSearchWhenMatchShouldPassLinkedListResult" classname="com.linkedlist.MyLinkedListTest" time="0.004"/>
+  <testcase name="givenLastElementWhenDeleteShouldPassLinkedListResult" classname="com.linkedlist.MyLinkedListTest" time="0.017"/>
+  <testcase name="given4NumbersWhenDeletedNumberFromSequenceShouldPassLinkedListResult" classname="com.linkedlist.MyLinkedListTest" time="0.001"/>
+  <testcase name="givenFirstElementWhenDeleteShouldPassLinkedListResult" classname="com.linkedlist.MyLinkedListTest" time="0.002"/>
+  <testcase name="given3NumbersWhenAddedToLinkedListShouldBeAddedToTop" classname="com.linkedlist.MyLinkedListTest" time="0.003"/>
+  <testcase name="given3NumbersWhenInsertingSecondInBetweenShouldPassLinkedList" classname="com.linkedlist.MyLinkedListTest" time="0.002"/>
   <testcase name="given3NumbersWhenAPendedToLinkedListShouldBeAddedToLast" classname="com.linkedlist.MyLinkedListTest" time="0.002"/>
   <system-out><![CDATA[My Node : 56->3070
+Size of node of the sequence element is :3
+My Node : 56->30->70
+Size of node of the sequence element is :3
 My Node : 30->70
+Size of node of the sequence element is :2
 My Node : 56->30->70
+Size of node of the sequence element is :3
 My Node : 56->30->70
+Size of node of the sequence element is :3
 My Node : 56->30->70
+Size of node of the sequence element is :3
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
