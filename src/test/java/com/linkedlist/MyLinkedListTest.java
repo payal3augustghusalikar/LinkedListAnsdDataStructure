@@ -110,6 +110,7 @@ public class MyLinkedListTest {
         Assert.assertTrue(result);
     }
 
+
     @Test
     public void given4NumbersWhenDeletedNumberFromSequenceShouldPassLinkedListResult() {
         MyNode<Integer> myFirstNode = new MyNode<>(56);
