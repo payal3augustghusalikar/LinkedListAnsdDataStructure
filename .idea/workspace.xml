@@ -3,11 +3,42 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+<<<<<<< HEAD
   <component name="ChangeListManager">
     <list default="true" id="f1cbbdee-9302-4a00-b0cb-c59e3d2d30c9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/linkedlist/INode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/linkedlist/INode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/linkedlist/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/linkedlist/MyLinkedList.java" afterDir="false" />
+=======
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/uc8-insert_40after30to_sequence" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f1cbbdee-9302-4a00-b0cb-c59e3d2d30c9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> uc8-insert_40after30to_sequence
       <change beforePath="$PROJECT_DIR$/src/test/java/com/linkedlist/MyLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/linkedlist/MyLinkedListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +46,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -29,6 +61,8 @@
       </list>
     </option>
   </component>
+=======
+>>>>>>> uc8-insert_40after30to_sequence
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -39,7 +73,11 @@
       </MavenGeneralSettings>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="ProjectId" id="1lH6joZgvMRhd7peK2TmjjFWFzK" />
+=======
+  <component name="ProjectId" id="1lKhOWiJn33AzMJMGi4es4ndPNV" />
+>>>>>>> uc8-insert_40after30to_sequence
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -47,6 +85,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+<<<<<<< HEAD
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/linkedlist" />
@@ -128,11 +167,15 @@
         <item itemvalue="Gradle.MyLinkedListTest.givenElementToSearchWhenMatchShouldPassLinkedListResult" />
       </list>
     </recent_temporary>
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+>>>>>>> uc8-insert_40after30to_sequence
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="f1cbbdee-9302-4a00-b0cb-c59e3d2d30c9" name="Default Changelist" comment="" />
+<<<<<<< HEAD
       <created>1607241809424</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -204,5 +247,63 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+=======
+      <created>1607351659298</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607351659298</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/uc8-insert_40after30to_sequence" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1323" height="88" key="GridCell.Tab.0.bottom" timestamp="1607351525530">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="88" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607351525530" />
+    <state width="1323" height="88" key="GridCell.Tab.0.center" timestamp="1607351525529">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="88" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607351525529" />
+    <state width="1323" height="88" key="GridCell.Tab.0.left" timestamp="1607351525528">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="88" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607351525528" />
+    <state width="1323" height="88" key="GridCell.Tab.0.right" timestamp="1607351525530">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="88" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607351525530" />
+    <state x="520" y="84" key="RollbackChangesDialog" timestamp="1607351925813">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="520" y="84" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1607351925813" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1607352124959">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1607352124959" />
+>>>>>>> uc8-insert_40after30to_sequence
   </component>
 </project>
