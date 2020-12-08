@@ -123,6 +123,7 @@ public class MyLinkedList {
     }
 
     public <K> void sortAscendingOrder (INode<K> newNode ) {
+
         if (head == null || ((Comparable<K>) head.getKey()).compareTo(newNode.getKey()) > 0) {
             newNode.setNext(head);
             head = newNode;
@@ -131,6 +132,7 @@ public class MyLinkedList {
             while (tempNode.getNext() != null && ((Comparable<K>) tempNode.getNext().getKey()).compareTo(newNode.getKey()) < 0) {
                 tempNode = tempNode.getNext();
             }
+            System.out.println("\n sort ascending : ");
             newNode.setNext(tempNode.getNext());
             tempNode.setNext(newNode);
         }

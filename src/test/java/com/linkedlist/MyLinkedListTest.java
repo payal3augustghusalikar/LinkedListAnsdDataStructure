@@ -112,7 +112,6 @@ public class MyLinkedListTest {
 
     @Test
     public void given4NumbersWhenInsertingThirdInBetweenShouldPassLinkedListResult() {
-        System.out.println("inser 40.....");
         MyNode<Integer> myFirstNode = new MyNode<>(56);
         MyNode<Integer> mySecondNode = new MyNode<>(30);
         MyNode<Integer> myThirdNode = new MyNode<>(40);
@@ -166,9 +165,8 @@ public class MyLinkedListTest {
         myLinkedList.sortAscendingOrder(myFourthNode);
         myLinkedList.printMyNode();
 
-        boolean result = myLinkedList.head.equals(mySecondNode) &&
-                myLinkedList.head.getNext().equals(myThirdNode) &&
-                myLinkedList.head.getNext().getNext().equals(myFirstNode) &&
+        boolean result = myLinkedList.head.equals(myFirstNode) &&
+                myLinkedList.head.getNext().equals(mySecondNode) &&
                 myLinkedList.tail.equals(myFourthNode);
         Assert.assertTrue(result);
     }

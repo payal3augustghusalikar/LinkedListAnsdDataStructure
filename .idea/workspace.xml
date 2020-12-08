@@ -43,10 +43,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/linkedlist/MyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/linkedlist/MyLinkedList.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/linkedlist/MyLinkedListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/linkedlist/MyLinkedListTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.linkedlist.MyLinkedListTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.linkedlist.MyLinkedListTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.linkedlist.MyLinkedListTest.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.linkedlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.linkedlist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.linkedlist.MyLinkedListTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.linkedlist.MyLinkedListTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.linkedlist.MyLinkedListTest.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
@@ -84,8 +84,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit3 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -110,7 +110,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/linkedlist" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HotelReservationSystem" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DataStructureAndHashTable" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -123,7 +123,7 @@
       <recent name="com.linkedlist" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MyLinkedListTest.givenLastElementWhenDeleteShouldPassLinkedListResult">
+  <component name="RunManager" selected="Gradle.MyStackTest.given3NumbersWhenAddedToStackShouldHaveLastAddedNode">
     <configuration name="MyLinkedListTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -162,31 +162,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MyLinkedListTest.given4NumbersWhenInsertingThirdInBetweenShouldPassLinkedListResult" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MyLinkedListTest.given4NumbersWhenDeletingThirdInBetweenShouldPassLinkedListResult" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.linkedlist.MyLinkedListTest.given4NumbersWhenInsertingThirdInBetweenShouldPassLinkedListResult&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="MyLinkedListTest.givenElementToSearchWhenMatchShouldPassLinkedListResult" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.linkedlist.MyLinkedListTest.givenElementToSearchWhenMatchShouldPassLinkedListResult&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.linkedlist.MyLinkedListTest.given4NumbersWhenDeletingThirdInBetweenShouldPassLinkedListResult&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -219,13 +200,32 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="MyStackTest.given3NumbersWhenAddedToStackShouldHaveLastAddedNode" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.linkedlist.MyStackTest.given3NumbersWhenAddedToStackShouldHaveLastAddedNode&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MyLinkedListTest.givenLastElementWhenDeleteShouldPassLinkedListResult" />
-        <item itemvalue="Gradle.MyLinkedListTest.givenElementToSearchWhenMatchShouldPassLinkedListResult" />
-        <item itemvalue="Gradle.MyLinkedListTest.given4NumbersWhenInsertingThirdInBetweenShouldPassLinkedListResult" />
+        <item itemvalue="Gradle.MyStackTest.given3NumbersWhenAddedToStackShouldHaveLastAddedNode" />
         <item itemvalue="Gradle.MyLinkedListTest.given4NumbersWhenAddedInAscendingOrderShouldPassLinkedList" />
         <item itemvalue="Gradle.MyLinkedListTest" />
+        <item itemvalue="Gradle.MyLinkedListTest.given4NumbersWhenDeletingThirdInBetweenShouldPassLinkedListResult" />
+        <item itemvalue="Gradle.MyLinkedListTest.givenLastElementWhenDeleteShouldPassLinkedListResult" />
       </list>
     </recent_temporary>
   </component>
@@ -277,26 +277,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="771" y="95" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1607242327441" />
-    <state x="644" y="122" key="FileChooserDialogImpl" timestamp="1607338599759">
+    <state x="644" y="122" key="FileChooserDialogImpl" timestamp="1607396038319">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="644" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607338599759" />
-    <state width="1323" height="96" key="GridCell.Tab.0.bottom" timestamp="1607356199153">
+    <state x="644" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607396038319" />
+    <state width="1323" height="50" key="GridCell.Tab.0.bottom" timestamp="1607432224360">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="96" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607356199153" />
-    <state width="1323" height="96" key="GridCell.Tab.0.center" timestamp="1607356199153">
+    <state width="1323" height="50" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607432224360" />
+    <state width="1323" height="50" key="GridCell.Tab.0.center" timestamp="1607432224360">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="96" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607356199153" />
-    <state width="1323" height="96" key="GridCell.Tab.0.left" timestamp="1607356199153">
+    <state width="1323" height="50" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607432224360" />
+    <state width="1323" height="50" key="GridCell.Tab.0.left" timestamp="1607432224343">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="96" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607356199153" />
-    <state width="1323" height="96" key="GridCell.Tab.0.right" timestamp="1607356199153">
+    <state width="1323" height="50" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607432224343" />
+    <state width="1323" height="50" key="GridCell.Tab.0.right" timestamp="1607432224360">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="96" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607356199153" />
+    <state width="1323" height="50" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607432224360" />
     <state width="661" height="52" key="GridCell.Tab.1.bottom" timestamp="1607354591986">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
