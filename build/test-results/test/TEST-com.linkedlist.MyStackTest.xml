@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.linkedlist.MyStackTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-12-08T12:57:18" hostname="DESKTOP-S0RN8B8" time="0.03">
+  <properties/>
+  <testcase name="given3NumbersWhenAddedToStackShouldHaveLastAddedNode" classname="com.linkedlist.MyStackTest" time="0.03"/>
+  <system-out><![CDATA[My Node : 56->30->70
+Size of node of the sequence element is :3
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

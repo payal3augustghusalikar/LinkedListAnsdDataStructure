@@ -54,12 +54,14 @@ public class MyLinkedList {
     }
 
     public INode popFirst() {
+        System.out.println("\n pop First");;
         INode tempNode = this.head;
         this.head = head.getNext();
         return tempNode;
     }
 
     public INode popLast() {
+        System.out.println("\n pop last");;
         INode tempNode = head;
         while (!tempNode.getNext().equals(tail)) {
             tempNode = tempNode.getNext();
@@ -82,6 +84,7 @@ public class MyLinkedList {
     }
 
     public INode insertBetweenNodes(INode head, INode newNode, int position) {
+        System.out.println("\n insert 40 -> ");
         INode previous = head;
         int count = 1;
         while (count < position - 1) {
@@ -95,6 +98,7 @@ public class MyLinkedList {
     }
 
     public INode deleteFromSequence(INode head, int positionOfElement) {
+        System.out.println("\n delete from sequence");;
         INode previous = head;
         int count = 1;
         while (count < positionOfElement - 1) {
@@ -119,6 +123,7 @@ public class MyLinkedList {
     }
 
     public <K> void sortAscendingOrder (INode<K> newNode ) {
+
         if (head == null || ((Comparable<K>) head.getKey()).compareTo(newNode.getKey()) > 0) {
             newNode.setNext(head);
             head = newNode;
@@ -127,6 +132,7 @@ public class MyLinkedList {
             while (tempNode.getNext() != null && ((Comparable<K>) tempNode.getNext().getKey()).compareTo(newNode.getKey()) < 0) {
                 tempNode = tempNode.getNext();
             }
+            System.out.println("\n sort ascending : ");
             newNode.setNext(tempNode.getNext());
             tempNode.setNext(newNode);
         }

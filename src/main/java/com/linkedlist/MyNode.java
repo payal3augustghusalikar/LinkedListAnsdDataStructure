@@ -1,7 +1,5 @@
 package com.linkedlist;
 
-import java.awt.*;
-
 public class MyNode<K> implements INode<K> {
 
     private K key;
